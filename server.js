@@ -27,3 +27,4 @@ device.on('connect', function() {
 device.on('message', function(topic, payload) {
   console.log('message', topic, payload.toString());
 });
+
